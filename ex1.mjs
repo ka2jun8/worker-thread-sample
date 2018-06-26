@@ -1,5 +1,5 @@
 import {Worker, isMainThread, threadId } from "worker_threads";
-// mjsだとworkerData取れない
+// mjsだとworkerData取れないので、代わりにthreadIdを使う
 
 const __filename = import.meta.url.substring(7);
 

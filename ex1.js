@@ -1,7 +1,5 @@
 const {Worker, isMainThread, parentPort, workerData } = require("worker_threads");
 
-console.log(__filename);
-
 let currentVal = 0;
 let intervals = [100, 1000, 500];
 
